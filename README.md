@@ -56,9 +56,28 @@ go install github.com/alasdairmorris/gimme@latest
 
 ## Usage
 
+```
+A super-simple file downloader.
+
+Usage:
+  gimme -o FILE URL
+  gimme -h | --help
+  gimme --version
+
+Global Options:
+  -h, --help             Show this screen.
+  --version              Show version.
+  -o, --outfile FILE     File to download to.
+
+Homepage: https://github.com/alasdairmorris/gimme
+
+```
 
 ## Examples
 
+```
+$ gimme -o unixtime https://github.com/alasdairmorris/unixtime/releases/latest/download/unixtime-darwin-amd64
+```
 
 ## License
 
